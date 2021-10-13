@@ -1,0 +1,22 @@
+$img-1: url(/content/bg-masthead.jpg);
+$img-2: url(/content/bg-showcase-1.jpg);
+$img-3: url(/content/bg-showcase-2.jpg);
+$img-4: url(/content/bg-showcase-3.jpg);
+$img-5: url(/content/testimonials-1.jpg);
+$img-6: url(/content/testimonials-2.jpg);
+$img-7: url(/content/testimonials-3.jpg);
+
+.img1 {
+  background: $img-5;
+  @include img-format2;
+}
+
+.img2 {
+  background: $img-6;
+  @include img-format2;
+}
+
+.img3 {
+  background: $img-7;
+  @include img-format2;
+}
